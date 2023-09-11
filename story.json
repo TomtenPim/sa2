@@ -1,0 +1,62 @@
+[
+        {
+            "id": 0,
+            "description": " ",
+            "options": [
+                {
+                    "text": "Start",
+                    "target": 1
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "description": "Villken av följande atriubut har Simon mest av?",
+            "options": [
+                {
+                    "text": "Styrka",
+                    "target": 2
+                },
+                {
+                    "text": "Smidighet",
+                    "target": 2
+                },
+                {
+                    "text": "Tålighet",
+                    "target": 2
+                },
+                {
+                    "text": "Intelligens",
+                    "target": 2
+                },
+                {
+                    "text": "Visdom",
+                    "target": 2
+                },
+                {
+                    "text": "Karisma",
+                    "target": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "description": "Du åt maten",
+            "options": [
+                {
+                    "text": "Till start",
+                    "target": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "description": "Du drack maten",
+            "options": [
+                {
+                    "text": "Till start",
+                    "target": 1
+                }
+            ]
+        }
+    ]

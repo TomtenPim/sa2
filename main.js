@@ -6,10 +6,6 @@ let titel = '${titel}'
 //förmågorkey [str,dex,con,int,wis,cha]
 
 document.querySelector('#app').innerHTML = `
-
-  <section id=titel>
-    <h1>Simon den Andre </h1>
-  </section> 
 `
 
 game(document.querySelector('#app'))
