@@ -3,10 +3,11 @@ import json from './story.json'
 
 let textarray = ["Felaktigt svar", "Vilken av följande attribut har Simon mest av?", "Vilken av följande attribut har Simon näst mest av?", "Slut"]
 let textchoicearray = [, "1.Styrka, 2.Smidighet, 3.Tålighet, 4.Intelligens, 5.Visdom, 6.Karisma", "1.Styrka, 2.Smidighet, 3.Tålighet, 4.a, 5.Visdom, 6.Karisma", "Tack för testet"]
-
-
+let atributes = [0,0,0,0,0,0]
+let eventcalls = 0
 
 export function game (element, position = 0) {
+
     element.innerHTML = ""
 
     let story = json[position]
@@ -19,6 +20,9 @@ export function game (element, position = 0) {
         let button = document.createElement("button")
         button.innerText = option.text
         button.addEventListener("click", () => {
+
+                event(option.event)        
+
             game(element, option.target)
         })
         element.appendChild(button)
@@ -26,10 +30,53 @@ export function game (element, position = 0) {
     
 }
 
-function roll(atributes) {
-    let result = Math.floor(Math.random() * 20) + 1 + atributes
+function roll(atribute) {
+    let result = Math.floor(Math.random() * 20) + 1 + atribute
     return result
 }
+
+function event(string){
+
+    let atributeArray = ["s","d","t","i","w","c"]
+    let modifier = parseInt(string.charAt(1));
+
+    if (string.charAt(0) == "r"){
+        for (let i = 0; i < atributeArray.length; i++){
+            if (string.charAt(1) == atributeArray[i]){
+                console.log( roll(atributes[i]) >= parseInt(string.charAt(2))*10 + parseInt(string.charAt(3)) )
+            }
+        }
+    }
+
+    for (let i = 0; i < atributeArray.length; i++){
+        if (string.charAt(0) == atributeArray[i]){
+            atributes[i] = modifier
+            if (eventcalls == 6){
+                atributes[i] = atributes[i]*-1
+            }
+        }
+    }
+
+
+    if (string.charAt(0) == "e"){
+        for (let i = 0; i < endingsArray.length; i++){
+            if (string.charAt(1) == endingsArray[i]){
+                ending1 = true
+            }
+        }
+    }
+
+
+    eventcalls++
+    console.log(atributes)
+}
+
+function atributeCheck(int, kod){
+
+    kod (int)
+
+}
+
 
 /*
 function text(id) {

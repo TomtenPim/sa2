@@ -5,6 +5,7 @@
             "options": [
                 {
                     "text": "Start",
+                    "event": "",
                     "target": 1
                 }
             ]
@@ -15,47 +16,224 @@
             "options": [
                 {
                     "text": "Styrka",
+                    "event": "s3",
                     "target": 2
                 },
                 {
                     "text": "Smidighet",
+                    "event": "d3",
                     "target": 2
                 },
                 {
                     "text": "Tålighet",
+                    "event": "t3",
                     "target": 2
                 },
                 {
                     "text": "Intelligens",
+                    "event": "i3",
                     "target": 2
                 },
                 {
                     "text": "Visdom",
+                    "event": "w3",
                     "target": 2
                 },
                 {
                     "text": "Karisma",
+                    "event": "c3",
                     "target": 2
                 }
             ]
         },
         {
             "id": 2,
-            "description": "Du åt maten",
+            "description": "Villken av följande atriubut har Simon näst mest av?",
             "options": [
                 {
-                    "text": "Till start",
-                    "target": 1
+                    "text": "Styrka",
+                    "event": "s2",
+                    "target": 3
+                },
+                {
+                    "text": "Smidighet",
+                    "event": "d2",
+                    "target": 3
+                },
+                {
+                    "text": "Tålighet",
+                    "event": "t2",
+                    "target": 3
+                },
+                {
+                    "text": "Intelligens",
+                    "event": "i2",
+                    "target": 3
+                },
+                {
+                    "text": "Visdom",
+                    "event": "w2",
+                    "target": 3
+                },
+                {
+                    "text": "Karisma",
+                    "event": "c2",
+                    "target": 3
                 }
             ]
         },
         {
             "id": 3,
-            "description": "Du drack maten",
+            "description": "Villken av följande atriubut har Simon just över medel av?",
             "options": [
                 {
-                    "text": "Till start",
-                    "target": 1
+                    "text": "Styrka",
+                    "event": "s1",
+                    "target": 4
+                },
+                {
+                    "text": "Smidighet",
+                    "event": "d1",
+                    "target": 4
+                },
+                {
+                    "text": "Tålighet",
+                    "event": "t1",
+                    "target": 4
+                },
+                {
+                    "text": "Intelligens",
+                    "event": "i1",
+                    "target": 4
+                },
+                {
+                    "text": "Visdom",
+                    "event": "w1",
+                    "target": 4
+                },
+                {
+                    "text": "Karisma",
+                    "event": "c1",
+                    "target": 4
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "description": "Villken yttligare av följande atriubut har Simon just över medel av?",
+            "options": [
+                {
+                    "text": "Styrka",
+                    "event": "s1",
+                    "target": 5
+                },
+                {
+                    "text": "Smidighet",
+                    "event": "d1",
+                    "target": 5
+                },
+                {
+                    "text": "Tålighet",
+                    "event": "t1",
+                    "target": 5
+                },
+                {
+                    "text": "Intelligens",
+                    "event": "i1",
+                    "target": 5
+                },
+                {
+                    "text": "Visdom",
+                    "event": "w1",
+                    "target": 5
+                },
+                {
+                    "text": "Karisma",
+                    "event": "c1",
+                    "target": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "description": "Villken av följande atriubut har Simon inget ovanligt i?",
+            "options": [
+                {
+                    "text": "Styrka",
+                    "event": "s0",
+                    "target": 6
+                },
+                {
+                    "text": "Smidighet",
+                    "event": "d0",
+                    "target": 6
+                },
+                {
+                    "text": "Tålighet",
+                    "event": "t0",
+                    "target": 6
+                },
+                {
+                    "text": "Intelligens",
+                    "event": "i0",
+                    "target": 6
+                },
+                {
+                    "text": "Visdom",
+                    "event": "w0",
+                    "target": 6
+                },
+                {
+                    "text": "Karisma",
+                    "event": "c0",
+                    "target": 6
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "description": "Villken av följande atriubut är Simon dålig i?",
+            "options": [
+                {
+                    "text": "Styrka",
+                    "event": "s1",
+                    "target": 7
+                },
+                {
+                    "text": "Smidighet",
+                    "event": "d1",
+                    "target": 7
+                },
+                {
+                    "text": "Tålighet",
+                    "event": "t1",
+                    "target": 7
+                },
+                {
+                    "text": "Intelligens",
+                    "event": "i1",
+                    "target": 7
+                },
+                {
+                    "text": "Visdom",
+                    "event": "w1",
+                    "target": 7
+                },
+                {
+                    "text": "Karisma",
+                    "event": "c1",
+                    "target": 7
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "description": "Du har nu spelat klart karaktärsskapandedemon",
+            "options": [
+                {
+                    "text": "Jahopp",
+                    "event": "rs10",
+                    "target": 0
                 }
             ]
         }
